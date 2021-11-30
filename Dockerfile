@@ -1,4 +1,4 @@
-FROM node:14.13.1-alpine
+FROM node:latest
 
 RUN apk add git openssh-client
 ENTRYPOINT ["docker-entrypoint.sh"]
